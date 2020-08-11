@@ -13,6 +13,3 @@ elif operation == 4 :
     print(">> ",first," ÷ ",second," = ",(first/second))
 else:
     print("!!Error!! Don't have opration")
- 
-
-
