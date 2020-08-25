@@ -25,9 +25,9 @@ def main():
             print('The area is',rectangle.area(width,length))
         elif choice == PERIMETER_RECTANGLE_CHOICE:
             width = float(input("Enter the rectangle's width : "))
-            length = float(input("Enter the rectangle's length"))
+            length = float(input("Enter the rectangle's length : "))
             print('The perimeter is', \
-                rectangle.perimeter(width,))
+                rectangle.perimeter(width,length))
         elif choice == QUIT_CHOICE:
             print('Exiting the program...')
         else:

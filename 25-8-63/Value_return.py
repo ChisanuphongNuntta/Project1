@@ -6,7 +6,7 @@ def main():
     print('The sale price is $',format(sale_price,',.2f'),sep='')
 
 def get_regular_price():
-    print = float(input("Enter the item's regular price: " ))
+    price = float(input("Enter the item's regular price: " ))
     return price
 
 def discount(price):
