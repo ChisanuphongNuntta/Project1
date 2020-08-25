@@ -1,5 +1,8 @@
 def reverse_name(first,last):
-    print(last,first)
+    print(first,last)
+    s1 = (first[::-1])
+    s2 = (last[::-1])
+    print(s2,s1)
 
 def main():
     first_name = input('Enter your first name: ')
