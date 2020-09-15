@@ -1,5 +1,5 @@
 def main():
-    outfile = open('philosophers.txt','w')
+    outfile = open('15-9-63/philosophers.txt','w')
 
 
     outfile.write('john Lock\n')
