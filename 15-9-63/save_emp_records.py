@@ -1,7 +1,7 @@
 def main():
     num_epm = int(input('How many employee records ' +\
                         'do you want to create? '))
-    emp_file = open('employees.txt','w')
+    emp_file = open('15-9-63/employees.txt','w')
     for count in range(1,num_epm + 1):
         print('Enter data for employee #',count,sep='')
         name = input('Name : ')

@@ -1,5 +1,5 @@
 def main():
-    infile = open('philosophers.txt','r')
+    infile = open('15-9-63/philosophers.txt','r')
 
     line1 = infile.readline()
     line2 = infile.readline()

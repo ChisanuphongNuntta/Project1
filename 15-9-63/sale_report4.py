@@ -1,7 +1,7 @@
 def main():
     total = 0.0
     try:
-        infile = open('sale_data.txt','r')
+        infile = open('15-9-63/sales_data.txt','r')
 
         for line in infile:
             amount = float(line)

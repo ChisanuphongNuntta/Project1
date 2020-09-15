@@ -1,5 +1,5 @@
 def main():
-    sales_file = open('sales.txt','r')
+    sales_file = open('15-9-63/sales.txt','r')
 
     line = sales_file.readline()
 
