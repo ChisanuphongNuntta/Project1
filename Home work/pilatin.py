@@ -1,8 +1,8 @@
 ay = 'ay'
 way = 'ay'
-consonant = (‘B’,’C’,’D’,’F’,’G’,’H’,’J’,’K’,’L’,’M’,’N’,’P’,’Q’,’R’,’S’,’T’,’Y’,’V’,’X’,’Z’)
-vowel = (‘A’,’E’,’I’,’O’,’U’)
-pig_latin_string =”
+consonant = ('B','C','D',"F",'G','H','J','K','L','M','N','P','Q','R','S','T','Y','V','X','Z')
+vowel = ('A','E','I','O','U')
+pig_latin_string =""
 user_sentence = input(‘Enter a sentence to translate to Pig Latin: ‘)
 words = user_sentence.split()
 for user_word in words:
