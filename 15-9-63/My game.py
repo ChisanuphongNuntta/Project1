@@ -22,7 +22,7 @@ def main():
             elif choice == del_friend:
                 deltext = input('Enter your delete : ')
                 detext = open('15-9-63/game.txt','a')
-                detext.clear(deltext)
+                detext.read(deltext)
                 detext.close()
             elif choice == end:
                 print('end program...')
