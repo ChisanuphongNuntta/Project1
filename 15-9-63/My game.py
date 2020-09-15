@@ -22,8 +22,8 @@ def main():
             elif choice == del_friend:
                 deltext = input('Enter your delete : ')
                 detext = open('15-9-63/game.txt','a')
-                detext.split(deltext)
-
+                detext.clear(deltext)
+                detext.close()
             elif choice == end:
                 print('end program...')
             else:
@@ -35,6 +35,7 @@ def display_manu():
     print('    menu')
     print('1. read friend')
     print('2. add friend')
-    print('3. end program')
+    print('3. delete your friend')
+    print('4. end program')
 
 main()

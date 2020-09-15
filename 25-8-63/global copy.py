@@ -2,7 +2,7 @@ import random
 
 HEADS = 1
 TAILS = 2
-TOSSES = 10
+TOSSES = 1000
 
 def main():
     H = 0
