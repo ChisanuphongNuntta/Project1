@@ -6,7 +6,7 @@ print(heroes.index('Thor'))
 heroes.insert(heroes.index('Thor'),h2[1])
 print(heroes)
 heroes.remove('Superman')
-heroes.append('Ant Man')
+heroes.append('Ant Man') #append ไปต่อหลัง
 print(heroes)
 heroes.sort()
 print(heroes)
