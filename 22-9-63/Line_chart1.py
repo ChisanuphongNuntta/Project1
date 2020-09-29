@@ -4,7 +4,7 @@ def main():
     x_coords = [0,1,2,3,4]
     y_coords = [0,3,1,5,2]
 
-    pil.plot(x_coords,y_coords)
+    plt.plot(x_coords,y_coords)
 
     plt.show()
 
