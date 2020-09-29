@@ -3,14 +3,14 @@ import pickle
 def main():
     again = 'y'
 
-    output_file = open('info.dat','wb')
+    output_file = open('29-9-63/dictionaries_sets/info.dat','wb')
 
     while again.lower() == 'y':
         save_data(output_file)
 
         again = input('Enter more data? (y/n): ')
 
-        output_file.close()
+    output_file.close()
 
 def save_data(file):
     person = {}
@@ -20,4 +20,5 @@ def save_data(file):
     person['weight'] = float(input('Weight: '))
 
     pickle.dump(person,file)
+
 main()

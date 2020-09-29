@@ -3,7 +3,7 @@ import pickle
 def main():
     end_of_file = False
 
-    input_file = open('info.dat','rb')
+    input_file = open('29-9-63/dictionaries_sets/info.dat','rb')
 
     while not end_of_file:
         try:
