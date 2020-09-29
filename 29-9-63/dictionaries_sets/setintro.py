@@ -6,6 +6,7 @@ Uset = setA | setB
 print(Uset)
 print(len(Uset))
 
+
 setB.update('ABCD')
 setA.update([6,7,8])
 print(setB)
