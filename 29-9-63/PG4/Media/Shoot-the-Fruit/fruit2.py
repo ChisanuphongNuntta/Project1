@@ -14,5 +14,12 @@ def place_apple():
     apple.x = randint(10, 600)
     apple.y = randint(10, 400)
 
-place_apple()
+def on_mouse_down(pos):
+    if apple.collidepoint(pos):
+        print('wow')
+        place_apple()
+    else:
+        print("yoy miss")
+        place_apple()
+
 pgzrun.go()
